@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 1%, 22%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+}
+body > div {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: hsla(0, 0%, 100%, 0.966);
+    margin-bottom: 0.5em;
+}
+.search-bar-AOS, .search-bar-AOO {
+    padding: 1em;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+    outline: none;
+}
+.search-result-AOS, .search-result-AOO, .select-result{
+    background-color: hsl(0, 3%, 47%);
+    padding: 2em;
+    min-width: 36%;
+}
